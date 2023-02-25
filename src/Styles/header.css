@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#modinpt{
+    width:190px;
+    height: 40px;
+}
+
+#modbtn-login{
+    height: 30px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    font-size: larger;
+    padding-top: 2px;
+    background-color: green;
+    color: white;
+}
+#modbtn-can{
+    background-color: red;
+    color: white;
+    font-size: larger;
+    padding-top: 2px;
+    height: 30px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.nav_bar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(2, 15, 49);
+    position: absolute;
+    z-index: 2;
+
+}
+.nav_bar1{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(2, 15, 49);
+    z-index: 2;
+}
+.btn{
+    display: inline block;
+    width: 60%;
+    height: 80px;
+    text-align: right;
+    padding: 10px;
+    float: right;
+}
+button{
+    padding: 3mm;
+}
+#btn1{
+    border: none;
+    background-color: transparent;
+    color: white;
+    transition: 0.3s;
+    margin-right: 6px;
+}
+#btn2{
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    margin-left: 0px;
+    transition: 0.3s;
+}
+
+#btn1:hover{
+    color: rgb(238, 145, 145);
+}
+#btn2:hover{
+    border: solid rgb(238, 145, 145);
+    color: rgb(238, 145, 145);
+}
+.nam1{
+font-size: 50px;
+}
+.logo2{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    text-shadow: 8px 5px black;
+    border: solid white 2px;
+    display: inline-block;
+    font-style: initial;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    background-color: orange ;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 10px;
+}
+.logo1{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    text-shadow: 8px 5px black;
+    border: solid white 2px;
+    display: inline-block;
+    font-style: initial;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    background-color: orange ;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.logo1:hover,.logo2:hover{
+    box-shadow: 1px -1px 25px black;
+}
+h1{
+    font-size: calc(2.375rem + 1.5vw);
+}
+i{ 
+    display: none;
+}
+.svg{
+    background-image: url(./image/svg.png);
+    background-size: 100% 100%;
+    width:50px;
+    height:50px;
+    background-repeat: no-repeat;
+    float: right;
+    display: none;
+    border: none;
+    background-color: transparent;
+    top: 15px;
+    border-radius: 5px;
+}
+.btnx{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .svg{
+        display: block;
+    }
+    .svg:hover{
+        background-color: rgb(139, 111, 111);
+    }
+    .btn{
+        display: none;
+    }
+    .btnx{
+        position: absolute;
+        display: block;
+        width: 60%;
+        right: -60px;
+        top: 50px;
+        height: 150px;
+        background-color: rgb(135, 122, 122);
+    }
+
+    #btn1{
+        width: 78%;
+        height: 50px;
+        background: inherit;
+        background-color: transparent;
+        border: 2px solid rgb(238, 145, 145);
+        color: rgb(232, 212, 212);
+        
+    }
+    #btn2{
+        width: 78%;
+        height: 50px;
+        background: inherit;
+        background-color: transparent;
+        color: rgb(232, 212, 212);
+        border: 2px solid rgb(238, 145, 145);
+    }
+    #btn2:hover{
+        color: rgb(238, 145, 145);
+    }
+    #btn1:hover{
+        color: rgb(238, 145, 145);
+    }
+    #btn1:active{
+        color: rgb(255, 255, 255);
+        background-color: rgb(238, 145, 145);
+    }
+    #btn2:active{
+        color: rgb(255, 255, 255);
+        background-color: rgb(238, 145, 145);
+    }
+}
